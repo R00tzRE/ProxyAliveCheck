@@ -1,0 +1,15 @@
+# HTTP proxies (default)
+127.0.0.1:8080
+192.168.1.1:3128
+
+# HTTP proxies with protocol prefix
+http://127.0.0.1:8080
+http://192.168.1.1:3128
+
+# SOCKS4 proxies
+socks4://127.0.0.1:1080
+socks4://192.168.1.1:1080
+
+# SOCKS5 proxies
+socks5://127.0.0.1:1080
+socks5://192.168.1.1:1080
